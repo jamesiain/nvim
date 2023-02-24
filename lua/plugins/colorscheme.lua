@@ -1,7 +1,6 @@
 return {
 
-  -- toggle background transparency
-  {
+  { -- toggle background transparency
     "xiyaowong/nvim-transparent",
     event = { "BufReadPre", "BufNewFile" },
     keys = {
@@ -14,8 +13,7 @@ return {
     },
   },
 
-  -- persistent colorscheme picker
-  {
+  { -- persistent colorscheme picker
     "jamesiain/colorscheme-persist.nvim",
     event = { "BufReadPre", "BufNewFile" },
     priority = 1000,
@@ -77,8 +75,7 @@ return {
     end,
   },
 
-  -- restore the persisted colorscheme at startup
-  {
+  { -- restore the persisted colorscheme at startup
     "LazyVim/LazyVim",
     opts = {
       colorscheme = function()

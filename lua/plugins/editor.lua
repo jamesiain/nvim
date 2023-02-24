@@ -1,10 +1,6 @@
 return {
 
-  -- fuzzy finder
-  {
-    "nvim-telescope/telescope.nvim",
-    keys = {
-      { "<leader>uC", false }, -- disable the built-in colorscheme picker
-    },
+  { -- open "filename:248,13" at line 248 and column 13
+    "wsdjeg/vim-fetch",
   },
 }
