@@ -24,6 +24,7 @@ return {
       -- available colorschemes
       "AlessandroYorba/Alduin",
       "JoosepAlviste/palenightfall.nvim",
+      "NTBBloodbath/sweetie.nvim",
       "ayu-theme/ayu-vim",
       { "catppuccin/nvim", name = "catppuccin" },
       "ellisonleao/gruvbox.nvim",
@@ -32,8 +33,10 @@ return {
       "loctvl842/monokai-pro.nvim",
       "nyngwang/nvimgelion",
       "olivercederborg/poimandres.nvim",
+      "projekt0n/github-nvim-theme",
       "ray-x/aurora",
       "rebelot/kanagawa.nvim",
+      "ribru17/bamboo.nvim",
       { "rose-pine/neovim", name = "rose-pine" },
       "sainnhe/sonokai",
       "shaunsingh/oxocarbon.nvim",
