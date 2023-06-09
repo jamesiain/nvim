@@ -16,6 +16,7 @@
   "colorscheme-persist.nvim": { "branch": "local-changes", "commit": "3ee7767ae961b17e56b33cb22545c5dc94f9dd77" },
   "conduct.nvim": { "branch": "main", "commit": "73b4fb0b1e11cfed7badf5e8b0194f9e2fcc99fb" },
   "dressing.nvim": { "branch": "master", "commit": "f16d7586fcdd8b2e3850d0abb7e46f944125cc25" },
+  "edgy.nvim": { "branch": "main", "commit": "7bf62a057284233381c8fc4848e10d8335942495" },
   "fleet-theme-nvim": { "branch": "master", "commit": "bff73748f6acddc3c152ab9f0e79bff045d04c52" },
   "flit.nvim": { "branch": "main", "commit": "f60e4b3d49bb5a5e97cfffe66f2e671eb422078e" },
   "friendly-snippets": { "branch": "main", "commit": "0eb246a7dbb06d3d9e560696be210241cc27c081" },
