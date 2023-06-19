@@ -1,12 +1,30 @@
 return {
-  {
+
+  { -- gaze deeply into unknown regions using the power of the moon
     "nvim-telescope/telescope.nvim",
     dependencies = {
-      "nvim-telescope/telescope-fzf-native.nvim",
-      build = "make",
-      config = function()
-        require("telescope").load_extension("fzf")
-      end,
+      { -- operate fzf from within a telescope popup in neovim
+        "nvim-telescope/telescope-fzf-native.nvim",
+        build = "cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build",
+        config = function()
+          require("telescope").load_extension("fzf")
+        end,
+      },
+      { -- operate zoxide from within a telescope popup in neovim
+        "jvgrootveld/telescope-zoxide",
+        config = function()
+          require("telescope").load_extension("zoxide")
+        end,
+        keys = {
+          {
+            "<leader>z",
+            function()
+              require("telescope").extensions.zoxide.list()
+            end,
+            desc = "Switch Directory (cwd) using Zoxide",
+          },
+        },
+      },
     },
     keys = {
       { "<leader>uC", false }, -- disable the built-in colorscheme picker
