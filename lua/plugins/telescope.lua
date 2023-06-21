@@ -25,6 +25,21 @@ return {
           },
         },
       },
+      { -- visualize and fuzzy-search changes in the undo tree
+        "debugloop/telescope-undo.nvim",
+        config = function()
+          require("telescope").load_extension("undo")
+        end,
+        keys = {
+          {
+            "<leader>su",
+            function()
+              require("telescope").extensions.undo.undo()
+            end,
+            desc = "Search Undo History",
+          },
+        },
+      },
     },
     keys = {
       { "<leader>uC", false }, -- disable the built-in colorscheme picker
