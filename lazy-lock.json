@@ -66,6 +66,7 @@
   "nvimgelion": { "branch": "main", "commit": "00415dc607300239f0d3e6097f8430738e658ba0" },
   "oxocarbon.nvim": { "branch": "main", "commit": "b47c0ecab3a4270815afb3b05e03423b04cca8f2" },
   "palenightfall.nvim": { "branch": "main", "commit": "f33b64d0099867deb4a7aa6024d4c55f628253f2" },
+  "papercolor-theme": { "branch": "master", "commit": "9051480ad9129ff4ab4fffb38b44779b9081626f" },
   "persistence.nvim": { "branch": "main", "commit": "4b8051c01f696d8849a5cb8afa9767be8db16e40" },
   "playground": { "branch": "master", "commit": "ba48c6a62a280eefb7c85725b0915e021a1a0749" },
   "plenary.nvim": { "branch": "master", "commit": "9ce85b0f7dcfe5358c0be937ad23e456907d410b" },

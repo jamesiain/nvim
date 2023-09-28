@@ -24,6 +24,7 @@ return {
       -- available colorschemes
       "AlessandroYorba/Alduin",
       "JoosepAlviste/palenightfall.nvim",
+      "NLKNguyen/papercolor-theme",
       "NTBBloodbath/sweetie.nvim",
       "askfiy/visual_studio_code",
       "ayu-theme/ayu-vim",
