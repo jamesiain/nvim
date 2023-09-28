@@ -48,7 +48,7 @@ return {
     },
     keys = {
       {
-        "<leader>up",
+        "<leader>uu",
         function()
           require("colorscheme-persist").picker()
         end,
