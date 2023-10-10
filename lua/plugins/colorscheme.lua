@@ -43,6 +43,7 @@ return {
       { "rose-pine/neovim", name = "rose-pine" },
       "sainnhe/sonokai",
       "shaunsingh/oxocarbon.nvim",
+      "stevedylandev/flexoki-nvim",
       "talha-akram/noctis.nvim",
       "tokyonight.nvim",
       "zanglg/nova.nvim",
