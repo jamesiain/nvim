@@ -29,6 +29,7 @@ return {
       "askfiy/visual_studio_code",
       "ayu-theme/ayu-vim",
       { "catppuccin/nvim", name = "catppuccin" },
+      "craftzdog/solarized-osaka.nvim",
       "ellisonleao/gruvbox.nvim",
       "felipeagc/fleet-theme-nvim",
       "kdheepak/monochrome.nvim",
