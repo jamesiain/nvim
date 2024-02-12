@@ -37,6 +37,7 @@ return {
       { "maxmx03/fluoromachine.nvim", opts = { glow = true } },
       "nyngwang/nvimgelion",
       "olivercederborg/poimandres.nvim",
+      "pauchiner/pastelnight.nvim",
       "projekt0n/github-nvim-theme",
       "ray-x/aurora",
       "rebelot/kanagawa.nvim",
